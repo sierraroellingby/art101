@@ -1,91 +1,21 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html><html><head>
+    <script src="p5.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
 
-<head>
-  <meta charset="utf-8">
-  <title>Art 101</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script src="demos/vid1_playOnClickAnywhere/libraries/p5.js"></script>
-  <script src="demos/vid1_playOnClickAnywhere/libraries/p5.dom.js"></script>
-  <link rel="stylesheet" type="text/css" href="main.css">
-  <script src="sketch.js" type="text/javascript"></script>
-</head>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
 
-<body>
-  <div id="bgCanvas">
-  </div>
-  <div class="content-div">
-    <h1>Art 101 | Fall 2019</h1>
-    <p><em>
-      <a href="https://github.com/larkbuck/art101/tree/master/tutorials">Tutorials on GitHub</a>
-    </em><br>
-    <p><em>
-      <a href="https://www.youtube.com/playlist?list=PLT6L9mOkCXcOlfRHkTBft7FHGIEx6HX0R">Class YouTube playlist</a>
-    </em><br>
-    <p><em>
-      .. and sample code below 
-    </p>
-  </div>
-  <div class="">
-    <div class="content-div">
-      <h3>Portfolio Samples</h3>
-      <p>
-        <a href="portfolio-samples/singlePageBasic">Single-page basic</a>, using <a href="https://github.com/art75/SJSU-art75/tree/master/tutorials/tuts/03a_gitHubPageSetup/demos/gitHubPageTut">code from the GitHub page tutorial.</a> This is very simple,
-        but easy to customize and mobile-compatible ~ <a class='codeLink' href="portfolio-samples/singlePageBasicPortfolio.zip">code</a>
-      </p>
-      <p>
-        <a href="portfolio-samples/singlePagePortfolio_moreStyling">Single-page Portfolio with more styling</a> ~ <a class='codeLink' href="portfolio-samples/singlePagePortfolio_moreStyling.zip">code</a>
-      </p>
-    </div>
-    <div class="content-div">
-      <h3>Net.Art / P5</h3>
-      <p>
-        <a href="demos/hyper-linked_pages">Hyper-linked pages </a><br>(from Net Art setup <a href="https://github.com/art75/SJSU-art75/tree/master/tutorials/tuts/04a_netArt_repositorySetup">demo</a>) ~ <a class='codeLink' href="demos/hyper-linked_pages.zip">code</a></p>
-      <p>
-        <a href="demos/p5-raceCar">Race Car Class Demo</a> ~ <a class='codeLink' href="demos/p5-raceCar.zip">code</a> </p>
-      <p>
-        <a href="demos/p5sketch_fullScreen">Full-screen p5 Canvas</a> ~ <a class='codeLink' href="demos/p5sketch_fullScreen.zip">code</a> </p>
-      <p>
-        <a href="demos/p5sketch_fullScreen-puppy">Full-screen p5 Canvas with mouse replaced by puppy </a> ~ <a class='codeLink' href="demos/p5sketch_fullScreen-puppy.zip">code</a> </p>
-      <p>
-        <a href="demos/homepagePixelDust">Pixel dust on full-screen canvas (same as on this page)</a> ~ <a class='codeLink' href="demos/homepagePixelDust.zip">code</a> </p>
+<!-- <img src="hongkongcrop1.png" alt=""id="hk1"> -->
 
-    </div>
-    <div class="content-div">
-      <h3>P5 Sound and Dom Libraries</h3>
-      <p>
-        <a href="demos/00_theremin">Theremin</a> ~ <a class='codeLink' href="demos/00_theremin.zip">code</a> </p>
-      <p>
-        <a href="demos/01_playSound">Background music</a> ~ <a class='codeLink' href="demos/01_playSound.zip">code</a> </p>
-      <p>
-        <a href="demos/02_playButton">Play button for music</a> ~ <a class='codeLink' href="demos/02_playButton.zip">code</a> </p>
-      <p>
-        <a href="demos/03_buttonSounds">Sounds on multiple buttons</a> ~ <a class='codeLink' href="demos/03_buttonSounds.zip">code</a> </p>
-      <p>
-        <a href="demos/04_DOM-CSS">Styling CSS with p5 DOM Library</a> ~ <a class='codeLink' href="demos/04_DOM-CSS.zip">code</a> </p>
-      <p>
-        <a href="demos/05_speech">Speech Synthesis</a> ~ <a class='codeLink' href="demos/05_speech.zip">code</a> </p>
-    </div>
-    <div class="content-div">
-      <h3>HTML5 Video tag: </h3>
+<p id="hk1">dkfjdkFJksdljfdkdlkfjdkslFJdklmFJVNKASLFVNJ  20</p>
+<img src="hongkongcrop2.png" alt=""id="hk2">
 
-      <p>Video that is NOT hosted on Vimeo/YouTube... and you can control it with P5! <br> ---> Follow <a href="https://github.com/art75/SJSU-Art75/tree/master/tutorials/tuts/03h_HTML5-video-tag">this tutorial</a> to prep your files</p>
-      <p>
-        <em>(best viewed in Chrome/Firefox, not mobile compatible)</em></p>
-      <p>
-        <a href="demos/HTML_videoTag">Overview: Using the HTML5 Video tag </a> ~ <a class='codeLink' href="demos/HTML_videoTag.zip">code</a></p>
-      <ol>
-        <li><a href="demos/vid1_playOnClickAnywhere">Click anywhere to play video</a> ~ <a class='codeLink' href="demos/vid1_playOnClickAnywhere.zip">code</a> </li>
-        <li><a href="demos/vid2_playOnClickVideo">Click video to play</a> ~ <a class='codeLink' href="demos/vid2_playOnClickVideo.zip">code</a></li>
-        <li><a href="demos/vid3_playOnMouseOver">MouseOver video to play</a> ~ <a class='codeLink' href="demos/vid3_playOnMouseOver.zip">code</a></li>
-        <li><a href="demos/vid4_controlSpeedWithMouse">Control Video speed with mouse position</a> ~ <a class='codeLink' href="demos/vid4_controlSpeedWithMouse.zip">code</a></li>
-        <li><a href="demos/vid5_multipleVidsMouseOver">Multiple videos with mouseOver</a> ~ <a class='codeLink' href="demos/vid5_multipleVidsMouseOver.zip">code</a></li>
-        <li><a href="demos/vid6_multipleVidsP5style">Using P5 to change CSS style</a> ~ <a class='codeLink' href="demos/vid6_multipleVidsP5style.zip">code</a></li>
-      </ol>
-      </p>
-    </div>
-  </div>
-</body>
+<img src="hongkongcrop3.png" alt=""id="hk3">
 
-</html>
+<img src="hongkongcrop4.png" alt=""id="hk4">
+
+</body></html>
